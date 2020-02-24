@@ -31,7 +31,6 @@ public class DisplayAddressAction implements Action {
 		System.out.printf("index\tStreet\tCity\tPincode\n");
 		for(Address ad : abook)
 		{
-			//System.out.println(abook.indexOf(ad));
 			ad.display(abook.indexOf(ad));
 		}
 		

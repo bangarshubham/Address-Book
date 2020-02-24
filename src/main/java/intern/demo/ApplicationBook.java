@@ -12,6 +12,7 @@ import intern.demo.action.GoBackAddressAction;
 /**
  * Description : The ApplicationBook program implements an Address Book
  * application that contains all Actions to be executed.
+ * 
  * @author : Shubham Bangar
  * @version 1.0
  */
@@ -49,10 +50,10 @@ public class ApplicationBook {
 
 	/**
 	 * This is the main method which makes use of run method.
+	 * 
 	 * @param args Unused.
 	 */
 	public static void main(String[] args) {
-
 		ApplicationBook Abook = new ApplicationBook();
 		Abook.run();
 	}

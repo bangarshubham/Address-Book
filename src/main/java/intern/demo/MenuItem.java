@@ -8,7 +8,7 @@ import intern.demo.action.Action;
  * contains all getter and setter method so that Menu class can accsess private
  * characterstics of MenuItem class.
  * 
- * @author    : Shubham Bangar
+ * @author : Shubham Bangar
  * @version 1.0
  */
 
@@ -64,9 +64,11 @@ public class MenuItem {
 	}
 
 	/**
-	 * Description : This method accept the one choice and performs corresponding action.
+	 * Description : This method accept the one choice and performs corresponding
+	 * action.
+	 * 
 	 * @param option : This is integer parameter to isSelected method .
-	 * @return 	 	 : boolean value i.e true or false.
+	 * @return : boolean value i.e true or false.
 	 */
 	public boolean isSelected(int option) {
 
